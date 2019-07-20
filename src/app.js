@@ -107,7 +107,7 @@ app.get('*',(req, res)=>{
         errorMessage: 'Page not found'})
     
 })
-
+a
 app.listen(port, ()=>{
-    console.log('Server is up on port '+port)
+    console.log('Server is up on port '+ port)
 })
